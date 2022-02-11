@@ -4,7 +4,8 @@
   "description": "Layout project 1",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css:fix": "stylelint \"src/**/*.css\" --fix"
   },
   "repository": {
     "type": "git",
