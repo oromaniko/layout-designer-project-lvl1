@@ -4,7 +4,7 @@
   font-family: Neucha;
   font-style: normal;
 
-  src: url("../../assets/fonts/Neucha/Neucha-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -12,8 +12,7 @@
   font-family: OpenSans;
   font-style: normal;
 
-  src:
-    url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+  src: url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
 
@@ -96,7 +95,7 @@ section::before {
 
   background-color: var(--white-transp);
 
-  background-image: url("../../assets/images/background.png");
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
