@@ -12,14 +12,14 @@
   font-family: OpenSans;
   font-style: normal;
 
-  src:
-    url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+  src: url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
 
 :root {
   --white: #fff;
   --white-transp: #d7ccc0;
+  --light: #f5f4f0;
   --main: #fe8a02;
   --main-dark: #42413c;
   --dark: #2a2626;
@@ -89,12 +89,12 @@ section {
 section::before {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: -2;
 
   width: 100%;
   height: 100%;
 
-  background-color: var(--white-transp);
+  background-color: var(--light);
 
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@ main a {
   justify-content: flex-start;
   padding: 24px;
 
-  background-color: var(--white-transp);
+  background-color: var(--light);
 }
 
 .nav-card h3 {
@@ -278,6 +278,7 @@ h4 {
   color: var(--white);
 
   background-color: var(--brown);
+  z-index: 0;
 }
 
 .even h4 {
