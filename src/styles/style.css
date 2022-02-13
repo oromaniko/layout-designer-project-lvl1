@@ -12,8 +12,7 @@
   font-family: OpenSans;
   font-style: normal;
 
-  src:
-    url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+  src: url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
 
@@ -274,4 +273,8 @@ h4 {
   color: var(--brown);
 
   background-color: var(--white);
+}
+
+.even .subtitle-1 {
+  color: var(--white-transp);
 }
