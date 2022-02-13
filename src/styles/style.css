@@ -12,8 +12,7 @@
   font-family: OpenSans;
   font-style: normal;
 
-  src:
-    url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+  src: url("../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
 
@@ -185,10 +184,16 @@ main section:nth-child(2) {
   background-color: var(--main-dark);
 }
 
-#navigation {
+nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+header a,
+main a {
+  color: unset;
+  text-decoration: none;
 }
 
 .first-row {
@@ -217,7 +222,6 @@ main section:nth-child(2) {
   padding: 24px;
 
   background-color: var(--white-transp);
-  cursor: pointer;
 }
 
 .nav-card h3 {
@@ -307,6 +311,10 @@ form {
 form div {
   display: flex;
   align-items: center;
+}
+
+form a {
+  color: unset;
 }
 
 input {
